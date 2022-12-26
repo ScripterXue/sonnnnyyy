@@ -94,7 +94,7 @@ seen before so yes its good
         showdot = true,
         airshots = true,
         notifaction = true,
-        pingprediction = true,
+        pingprediction = false,
         FOV = math.huge,
         RESOVLER = false,
         Tracer = true,
@@ -242,7 +242,7 @@ seen before so yes its good
                 if Settings.Kalslock.notifaction == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "  Lunar";
+                    Title = "  SolarX";
                     Text = "  Unlocked",
                     Icon = "http://www.roblox.com/asset/?id=5314810647",
                     Duration = 3
@@ -254,7 +254,7 @@ seen before so yes its good
                 if Settings.Kalslock.notifaction == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "  Lunar";
+                        Title = "  SolarX";
                         Text = "  Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Icon = "http://www.roblox.com/asset/?id=8709610734",
                         Duration = 3
